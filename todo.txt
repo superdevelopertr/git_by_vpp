@@ -1,0 +1,32 @@
+guess-capital-game
+- guess one capital from user input
+- ignore class file
+- create todo.txt
+- create csv
+- commit them to repo
+- delete wrongly todo.txt on stash and disk, and then undone previous step
+- delete java file and commit, and then  undo commit
+- ignore txt file
+- develop reading from file
+- manager asked prev to update for ignore case, so stash current , update previous and commit it, pop stashed and add ignore case
+- change welcome message and add try with resources and commit them partially.
+
+-create new branch for calculating total
+-check what merged what not merged and then merge into master
+-create new branch early-exits and then merge changes
+-create new branch helper-scripts and then add compile and play script and commit them separately after you stashed all
+-merge helper-scripts to master
+-check what is not merged to master
+-show branch changes
+-merge master to early-exits
+-update total for early-exits for in same branch exitcode
+-rename helper-scripts to build-scripts
+
+-create tag manager for commit
+-jump to tag
+-move two commits before tag
+-move around a commit in two ways
+-jump to commit via message
+
+-- 
+Sent from Gmail Mobile
