@@ -6,8 +6,9 @@ class GuessCapital{
 	public static void main(String[]args){
 		System.out.println("Welcome to Guess Game!");
 		
-		try(Scanner scanner = new Scanner(System.in)){
-			BufferedReader br = new BufferedReader(new FileReader("C:\\DEV\\App\\git_by_vpp\\data.csv"));
+		try(Scanner scanner = new Scanner(System.in);
+		    BufferedReader br = new BufferedReader(new FileReader("C:\\DEV\\App\\git_by_vpp\\data.csv"));){
+			
 			String line=null;
 			while((line=br.readLine())!=null){
 			
