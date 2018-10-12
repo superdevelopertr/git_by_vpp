@@ -7,7 +7,7 @@ class GuessCapital{
 		try(Scanner scanner = new Scanner(System.in)){
 			System.out.println("Please enter capital of Turkey");
 			String lineEntered= scanner.next();
-			if(lineEntered.equals("Ankara")){
+			if(lineEntered.equalsIgnoreCase("Ankara")){
 				System.out.println("correct!");
 			}else{
 				System.out.println("wrong!");
